@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinConcepts.Views.StackLayoutPage"
+    Title="Stack Layouts">
+    <ContentPage.Content>
+
+        <ScrollView Orientation="Vertical">
+            <StackLayout Spacing="10" Padding="10,0" Orientation="Vertical"
+                         BindableLayout.ItemsSource="{Binding MyItems}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="20" Padding="2"
+                               BorderColor="Red"
+                               HasShadow="True">
+                            <Grid Padding="10" BackgroundColor="LightGray">
+                                <Label Text="{Binding Text}" TextColor="Black" FontSize="20"></Label>
+                            </Grid>
+
+                        </Frame>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+

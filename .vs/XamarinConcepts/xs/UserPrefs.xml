@@ -1,0 +1,48 @@
+﻿<Properties GitUserInfo="UsingGIT" BuildWithMSBuildOnMono="True" StartupConfiguration="{74531D55-B8F4-4DB7-8871-400D67442E59}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.ItemProperties.XamarinConcepts.Android PreferredExecutionTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinConcepts/XamarinConcepts/Views/BindableButtonPage.xaml">
+    <Files>
+      <File FileName="XamarinConcepts/XamarinConcepts/App.xaml" Line="1" Column="1" />
+      <File FileName="XamarinConcepts/XamarinConcepts/AppShell.xaml" Line="96" Column="18" />
+      <File FileName="XamarinConcepts/XamarinConcepts/Controls/ButtonControl.xaml" Line="23" Column="1" />
+      <File FileName="XamarinConcepts/XamarinConcepts/Controls/ButtonControl.xaml.cs" Line="14" Column="13" />
+      <File FileName="XamarinConcepts/XamarinConcepts/Controls/EntryControl.xaml" Line="12" Column="15" />
+      <File FileName="XamarinConcepts/XamarinConcepts/Views/LoginPage.xaml" Line="15" Column="1" />
+      <File FileName="XamarinConcepts/XamarinConcepts/ViewModels/LoginViewModel.cs" Line="1" Column="1" />
+      <File FileName="XamarinConcepts/XamarinConcepts/Views/BindableButtonPage.xaml" Line="21" Column="23" />
+      <File FileName="XamarinConcepts/XamarinConcepts/Views/BindableButtonPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinConcepts" expanded="True" selected="True">
+            <Node name="XamarinConcepts" expanded="True">
+              <Node name="Controls" expanded="True">
+                <Node name="ButtonControl.xaml" expanded="True" />
+                <Node name="EntryControl.xaml" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="BindableButtonPage.xaml" expanded="True" />
+                <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="StackLayoutPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
