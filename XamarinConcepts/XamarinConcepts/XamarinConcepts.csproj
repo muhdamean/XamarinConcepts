@@ -11,8 +11,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Controls\" />
+    <None Remove="Behaviors\" />
+    <None Remove="Triggers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Triggers\" />
   </ItemGroup>
 </Project>

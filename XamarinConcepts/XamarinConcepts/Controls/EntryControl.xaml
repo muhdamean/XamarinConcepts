@@ -2,11 +2,15 @@
 <ContentView
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:XamarinConcepts.Controls"
     x:Class="XamarinConcepts.Controls.EntryControl">
     <ContentView.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="LightGray" Padding="10,5">
             <Label x:Name="titleTxt" ></Label>
-            <Entry x:Name="entryBx"></Entry>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="imagePath" WidthRequest="25" HeightRequest="25"></Image>
+                <controls:MyEntry x:Name="entryBx" HorizontalOptions="FillAndExpand"></controls:MyEntry>
+            </StackLayout>
         </StackLayout>
     </ContentView.Content>
 </ContentView>

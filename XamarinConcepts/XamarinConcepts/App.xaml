@@ -27,6 +27,29 @@
                     </VisualStateGroupList>
                 </Setter>
             </Style>
+
+            <ControlTemplate x:Key="GeneralTemplate">
+                <Grid RowDefinitions="100,*" BackgroundColor="{TemplateBinding Parent.BackgroundColor}" Padding="30,0"
+              HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Frame HasShadow="True" Padding="20,0" HeightRequest="40"
+                   HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                <Grid ColumnDefinitions="Auto,*,Auto" HorizontalOptions="FillAndExpand"
+                      VerticalOptions="FillAndExpand">
+                    <ImageButton BackgroundColor="Transparent" Source="menu.png"
+                                 HorizontalOptions="Start" VerticalOptions="Center"
+                                 HeightRequest="16" WidthRequest="16"></ImageButton>
+                    <Label Grid.Column="1" Text="{TemplateBinding Parent.Title}" FontSize="20" FontAttributes="Bold"
+                           VerticalOptions="Center" HorizontalOptions="Center"></Label>
+                    <ImageButton Grid.Column="2" BackgroundColor="Transparent" Source="search.png"
+                                 HorizontalOptions="End" VerticalOptions="Center"
+                                 HeightRequest="16" WidthRequest="16"></ImageButton>
+                </Grid>
+
+            </Frame>
+             <ContentPresenter Grid.Row="1"></ContentPresenter>
+        </Grid>
+
+            </ControlTemplate>
         </ResourceDictionary>        
     </Application.Resources>
 </Application>

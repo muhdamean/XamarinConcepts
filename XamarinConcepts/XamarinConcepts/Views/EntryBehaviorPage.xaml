@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:b="clr-namespace:XamarinConcepts.Behaviors"
+    x:Class="XamarinConcepts.Views.EntryBehaviorPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Keyboard="Numeric" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <Entry.Behaviors>
+                    <b:EntryBehavior/>
+                    <b:CurrencyPrefix Currency="#"/>
+                </Entry.Behaviors>
+
+            </Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

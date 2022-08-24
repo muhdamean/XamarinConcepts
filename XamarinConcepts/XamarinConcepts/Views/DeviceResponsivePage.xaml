@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinConcepts.Views.DeviceResponsivePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView BackgroundColor="Red" HeightRequest="200" WidthRequest="200" HorizontalOptions="Center"></BoxView>
+            <BoxView BackgroundColor="Green" HeightRequest="200" IsVisible="{OnPlatform UWP='False',Default='True'}"
+                     WidthRequest="{OnIdiom Phone=200, Tablet=300, Desktop=500, Default=100}" HorizontalOptions="Center"></BoxView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

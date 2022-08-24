@@ -94,6 +94,15 @@
     <FlyoutItem Title="Bindable Button" Icon="icon_feed.png">
         <ShellContent Route="BindableButtonPage" ContentTemplate="{DataTemplate local:BindableButtonPage}" />
     </FlyoutItem>
+    <FlyoutItem Title="Control Template" Icon="icon_feed.png">
+        <ShellContent Route="ControlTemplatePage" ContentTemplate="{DataTemplate local:ControlTemplatePage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Device Responsive" Icon="icon_feed.png">
+        <ShellContent Route="DeviceResponsivePage" ContentTemplate="{DataTemplate local:DeviceResponsivePage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="App Version" Icon="icon_feed.png">
+        <ShellContent Route="AppVersionPage" ContentTemplate="{DataTemplate local:AppVersionPage}" />
+    </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
     <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">

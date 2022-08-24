@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:evt="clr-namespace:XamarinConcepts.Triggers"
+    x:Class="XamarinConcepts.Views.EntryTriggerPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Entry x:Name="ageBx" Keyboard="Numeric">
+                <Entry.Triggers>
+                    <EventTrigger Event="Focused">
+                        <evt:FocusTrigger />
+
+                    </EventTrigger>
+
+                </Entry.Triggers>
+
+            </Entry>
+            <Entry IsEnabled="False">
+                <Entry.Triggers>
+                    <DataTrigger TargetType="Entry" Binding="{Binding Source={x:Reference ageBx}, Path=Text}" Value="45">
+                        <Setter Property="Text" Value="Adult"></Setter>
+                    </DataTrigger>
+                    <DataTrigger TargetType="Entry" Binding="{Binding Source={x:Reference ageBx}, Path=Text}" Value="13">
+                        <Setter Property="Text" Value="Teenager"></Setter>
+                    </DataTrigger>
+                </Entry.Triggers>
+
+            </Entry>
+            <Entry/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

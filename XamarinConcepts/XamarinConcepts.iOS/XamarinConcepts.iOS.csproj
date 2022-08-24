@@ -69,6 +69,8 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomEntryRenderer.cs" />
+    <Compile Include="VersionAndBuild.cs" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -139,8 +141,14 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\XamarinConcepts\XamarinConcepts.csproj">
-      <Project>{B59CD54B-ED2F-461F-AB77-AC6346FDCFE0}</Project>
+      <Project>{60F19D57-C2C9-40E9-A687-EAC4CCD04F2E}</Project>
       <Name>XamarinConcepts</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\lock.png" />
+    <AndroidResource Include="Resources\user.png" />
+    <AndroidResource Include="Resources\downloads_icon.png" />
+    <AndroidResource Include="Resources\right_arrow_icon.png" />
   </ItemGroup>
 </Project>

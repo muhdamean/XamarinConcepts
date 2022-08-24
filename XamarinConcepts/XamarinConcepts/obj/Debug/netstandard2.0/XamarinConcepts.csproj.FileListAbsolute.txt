@@ -23,3 +23,9 @@
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/XamarinConcepts.pdb
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/XamarinConcepts.csproj.AssemblyReference.cache
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/Views/BindableButtonPage.xaml.g.cs
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/Views/ControlTemplatePage.xaml.g.cs
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/Views/EntryBehaviorPage.xaml.g.cs
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/Views/EntryTriggerPage.xaml.g.cs
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/Views/ControlTemplateDetailsPage.xaml.g.cs
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/Views/AppVersionPage.xaml.g.cs
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts/obj/Debug/netstandard2.0/Views/DeviceResponsivePage.xaml.g.cs

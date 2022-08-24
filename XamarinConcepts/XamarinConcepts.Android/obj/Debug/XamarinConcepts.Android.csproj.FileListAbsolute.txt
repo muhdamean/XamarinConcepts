@@ -62,9 +62,6 @@
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/mipmap-xxhdpi/launcher_foreground.png
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/mipmap-xxxhdpi/launcher_foreground.png
-/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/xamarin_logo.png
-/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/icon_about.png
-/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/icon_feed.png
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/uploadflags.txt
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/resolvedassemblies.hash
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/android/assets/FormsViewGroup.dll
@@ -634,5 +631,13 @@
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/android/src/crc64b5b0151f26590211/CustomEntryRenderer.java
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/lock.png
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/downloads_icon.png
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/user.png
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/icon_about.png
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/icon_feed.png
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/xamarin_logo.png
 /Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/right_arrow_icon.png
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/search.png
+/Users/muhdamean/Projects/XamarinConcepts/XamarinConcepts/XamarinConcepts.Android/obj/Debug/res/drawable/menu.png

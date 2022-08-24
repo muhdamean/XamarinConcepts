@@ -20,13 +20,17 @@ namespace XamarinConcepts.Controls {
         private global::Xamarin.Forms.Label titleTxt;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry entryBx;
+        private global::Xamarin.Forms.Image imagePath;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::XamarinConcepts.Controls.MyEntry entryBx;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EntryControl));
             titleTxt = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "titleTxt");
-            entryBx = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "entryBx");
+            imagePath = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "imagePath");
+            entryBx = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XamarinConcepts.Controls.MyEntry>(this, "entryBx");
         }
     }
 }

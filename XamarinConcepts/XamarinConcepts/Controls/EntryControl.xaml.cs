@@ -13,6 +13,7 @@ namespace XamarinConcepts.Controls
             titleTxt.Text = Title;
             entryBx.Text = Text;
             entryBx.IsPassword = IsPassword;
+            imagePath.Source = ImagePath;
 
             entryBx.TextChanged += OnTextChanged;
         }
@@ -32,6 +33,11 @@ namespace XamarinConcepts.Controls
                                                                         typeof(EntryControl),
                                                                         default(bool),
                                                                         BindingMode.OneWay);
+        public static readonly BindableProperty ImageProperty = BindableProperty.Create(nameof(ImagePath),
+                                                                               typeof(string),
+                                                                               typeof(EntryControl),
+                                                                               default(string),
+                                                                               BindingMode.OneWay);
 
 
         public string Title
@@ -48,6 +54,11 @@ namespace XamarinConcepts.Controls
         {
             get { return (bool)GetValue(IsPasswordProperty); }
             set { SetValue(IsPasswordProperty, value); }
+        }
+        public string ImagePath
+        {
+            get { return (string)GetValue(ImageProperty); }
+            set { SetValue(ImageProperty, value); }
         }
 
         private void OnTextChanged(object sender, TextChangedEventArgs e)
@@ -68,6 +79,10 @@ namespace XamarinConcepts.Controls
             if (propertyName == IsPasswordProperty.PropertyName)
             {
                 entryBx.IsPassword = IsPassword;
+            }
+            if (propertyName == ImageProperty.PropertyName)
+            {
+                imagePath.Source = ImagePath;
             }
         }
     }
